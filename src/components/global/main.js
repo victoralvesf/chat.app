@@ -45,8 +45,8 @@ export default class Main extends Component {
                   set='facebook'
                   style={{ position: 'absolute', bottom: '70px', left: '400px' }}
                   showPreview={false}
-                  title={false}
-                  perLine='7'
+                  title=''
+                  perLine={7}
                   showSkinTones={false}
                 />
                 <ChatField />
