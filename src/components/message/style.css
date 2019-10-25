@@ -1,0 +1,69 @@
+.message-line {
+    width: 100%;
+    height: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 3px 0px;
+}
+
+.message-balloon {
+    background: #fff;
+    height: fit-content;
+    width: fit-content;
+    line-height: 19px;
+    font-size: 14px;
+    padding: 5px 15px;
+    max-width: 40%;
+    position: relative;
+}
+
+.message-line.first {
+    padding-top: 4px;
+}
+
+.message-balloon.received {
+    border-radius: 0px 6px 6px 6px;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.message-balloon.send {
+    border-radius: 6px 0px 6px 6px;
+    margin-left: auto;
+    background: #f8f8b8;
+    color: #000;
+    box-shadow: -1px 2px 2px rgba(0,0,0,0.2);
+}
+
+.message-balloon .message-balloon-tail {
+    position: absolute;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: solid;
+}
+
+.message-balloon.received .message-balloon-tail {
+    left: -16px;
+    border-color: #fff #fff transparent transparent;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.message-balloon.send .message-balloon-tail {
+    right: -16px;
+    border-color: #f8f8b8 transparent transparent #f8f8b8;
+    border-radius: 0px 5px 0px 0px;
+}
+
+.message-balloon .text {
+    font-size: 15px;
+}
+
+.message-balloon .date {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-balloon small {
+    color: #666;
+}

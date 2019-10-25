@@ -1,0 +1,70 @@
+.main-box {
+    display: flex;
+    width: 1080px;
+    height: 100vh;
+    background: #eee;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1080px) {
+    .main-box {
+        width: 100vw;
+    }
+}
+
+.navbar {
+    background: #478cc4;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+}
+
+.navbar p {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.chat-box {
+    width: 100%;
+    height: calc(100% - 70px);
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-list {
+    width: 360px;
+    height: 100%;
+    background: #ebebeb;
+}
+
+.conversation-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.conversation-list .chat-list {
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    height: 100%;
+    max-height: calc(100% - 100px);
+    background: #c8d1da;
+    padding: 20px 0px;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.conversation-list .text-box {
+    display: flex;
+    width: 720px;
+    height: 100px;
+    background: red;
+    z-index: 2;
+}
