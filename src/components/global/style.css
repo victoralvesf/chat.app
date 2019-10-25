@@ -53,7 +53,7 @@
     flex-direction: column;
     width: 720px;
     height: 100%;
-    max-height: calc(100% - 100px);
+    max-height: calc(100% - 70px);
     background: #c8d1da;
     padding: 20px 0px;
     overflow: auto;
@@ -64,7 +64,7 @@
 .conversation-list .text-box {
     display: flex;
     width: 720px;
-    height: 100px;
+    height: 70px;
     background: red;
     z-index: 2;
 }
