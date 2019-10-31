@@ -41,14 +41,14 @@ export default class Main extends Component {
                 <MessageBalloon message="Teste de mensagem" type="send" />
               </div>
               <div className="text-box">
-                <Picker 
+                {/* <Picker 
                   set='facebook'
                   style={{ position: 'absolute', bottom: '70px', left: '400px' }}
                   showPreview={false}
                   title=''
                   perLine={7}
                   showSkinTones={false}
-                />
+                /> */}
                 <ChatField />
               </div>
             </div>
