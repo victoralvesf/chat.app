@@ -5,7 +5,9 @@ import { Picker } from 'emoji-mart'
 import './style.css';
 
 import MessageBalloon from '../message/index';
-import ChatField from '../chat/chatField';
+import ChatField from '../chat/ChatField';
+import EmojiBox from '../chat/EmojiBox';
+import SendBox from '../chat/SendBox';
 
 export default class Main extends Component {
   render() {
@@ -41,15 +43,9 @@ export default class Main extends Component {
                 <MessageBalloon message="Teste de mensagem" type="send" />
               </div>
               <div className="text-box">
-                {/* <Picker 
-                  set='facebook'
-                  style={{ position: 'absolute', bottom: '70px', left: '400px' }}
-                  showPreview={false}
-                  title=''
-                  perLine={7}
-                  showSkinTones={false}
-                /> */}
+                <EmojiBox />
                 <ChatField />
+                <SendBox />
               </div>
             </div>
           </div>

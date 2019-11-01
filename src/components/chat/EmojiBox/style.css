@@ -1,0 +1,12 @@
+.emoji-face {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emoji-face img {
+    width: 25px;
+    height: 25px;
+}

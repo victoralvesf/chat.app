@@ -1,0 +1,12 @@
+.send-button {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.send-button img {
+    width: 25px;
+    height: 25px;
+}
